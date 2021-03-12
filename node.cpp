@@ -1,4 +1,4 @@
-#include "node.h"
+//#include "node.h"
 
 template<class ItemType>
 Node<ItemType>:: Node() : next(nullptr){}

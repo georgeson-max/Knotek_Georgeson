@@ -1,4 +1,4 @@
-#include "customer.h"
+//#include "customer.h"
 
 Customer::Customer(){
     arrivalTime = 0;
