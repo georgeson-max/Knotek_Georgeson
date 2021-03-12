@@ -1,7 +1,7 @@
 main: driver.o customer.o event.o
-	g++ main driver.o customer.o event.o
+	g++ -o main driver.o customer.o event.o
 
-driver.o: driver.cpp
+driver.o: driver.cpp customer.h event.h
 	g++ -c driver.cpp
 
 customer.o: customer.cpp customer.h

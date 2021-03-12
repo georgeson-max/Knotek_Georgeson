@@ -22,5 +22,4 @@ public:
     bool operator<(const  Customer&);
 };
 
-#include "customer.cpp"
 #endif

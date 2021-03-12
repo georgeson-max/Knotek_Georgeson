@@ -24,6 +24,4 @@ public:
 
     bool operator<(const  Event&);
 };
-
-#include "event.cpp"
 #endif
